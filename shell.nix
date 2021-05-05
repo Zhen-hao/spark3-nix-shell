@@ -31,12 +31,9 @@ pkgs.mkShell {
       procps
       bash
       curl
-      sbt
       jdk11
-      coursier
       protobuf # for spark
       python38Packages.pyspark # to have spark shell
-      python38Packages.jupyter
     ];
   src = null;
 
